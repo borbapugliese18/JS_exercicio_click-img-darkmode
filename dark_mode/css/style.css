@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 400px;
+    
+}
+
+.main h1{
+    font-size: 30px;
+    color: rgb(77, 77, 77);
+}
+
+.main button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(71, 72, 95);
+    color: #fff;
+    width: auto;
+    height: 50px;
+    padding: 1px 15px 3px 15px;
+	border-radius: 50px;
+    font-size: 19px;
+    cursor: pointer;   
+    transition: 0.3s;                                                                                                                                                                                                                                                 
+}
+
+
+button:hover{
+    background-color:  rgb(40, 40, 53);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 75, 85);
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    
+}
+
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/*dark_mode*/
+body.dark_mode{
+    background-color: rgb(39, 39, 39);
+}
+
+h1.dark_mode{
+    color: #fff;
+}
+
+button.dark_mode{
+    background-color: rgb(54, 54, 80);
+    color: rgb(255, 255, 255)
+}
+
+button:hover.dark_mode{
+    background-color: #fff;
+    color: black;
+}
+
+footer.dark_mode{
+    background-color: rgb(139, 140, 173);
+}
+
